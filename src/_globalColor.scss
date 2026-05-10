@@ -2,6 +2,18 @@
 Certain colors are used for different and multiply types of elements. 
 For greater control over colors visit each components .scss file. */
 
+/* Font faces: add your Guarantia font files to src/assets/fonts/Guarantia.woff (or .ttf)
+   and the @font-face below will load them. If you don't have the font files,
+   add them and re-run the build. */
+@font-face {
+  font-family: 'Guarantia';
+  src: local('Guarantia'),
+       url('./assets/fonts/Guarantia.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 // button colors
 $buttonColor: #55198b;
 $buttonHover: #8c43ce;
